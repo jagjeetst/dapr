@@ -1,0 +1,16 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: pubsub
+spec:
+  type: pubsub.azure.eventhubs
+  version: v1
+  metadata:
+    - name: connectionString
+      value: "Endpoint=sb://stackwayXXXXXXXepoc.servicebus.windows.net/;SharedAXXXXXXXXXXXXXXXXXXTJ5+M=;EntityPath=stacXXXXXXXhub"
+    - name: storageAccountName
+      value: "stacXXXXXXXXXacc"
+    - name: storageAccountKey
+      value: "aUgXXXXXXXXXXXXXXXXXXXXXf5A=="
+    - name: storageContainerName
+      value: "stXXXXXXXXXXXXXer"

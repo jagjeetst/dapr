@@ -7,4 +7,4 @@ spec:
   topic: inventory
   route: /defaultpath
 scopes: 
-  - stackwaysconsumergroup
+  - consumergroup

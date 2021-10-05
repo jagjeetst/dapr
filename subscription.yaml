@@ -1,0 +1,10 @@
+apiVersion: dapr.io/v1alpha1
+kind: Subscription
+metadata:
+  name: myevent-subscription
+spec:
+  pubsubname: pubsub
+  topic: inventory
+  route: /defaultpath
+scopes: 
+  - stackwaysconsumergroup
